@@ -6,7 +6,7 @@ on:
     branches: [main]
     paths:
       - "**/*.tex"
-      - ".github/workflows/resume.yml"
+      - ".github/workflows/tex-to-pdf.yml"
 
 concurrency:
   group: resume-${{ github.ref }}
